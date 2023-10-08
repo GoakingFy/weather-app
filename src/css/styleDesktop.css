@@ -1,0 +1,224 @@
+:root{
+    --backgroundSecondary: #100E1D;
+    --backgroundPrimary: #1E213A;
+    --colorBtnGPS: #6E707A
+    ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--backgroundSecondary);
+    display: flex;
+
+}
+
+.body--asideInfoWeather{
+    width: 460px;
+    height: 100vh;
+    background-color: var(--backgroundPrimary);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.asideInfoWeather--sectionLocation{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.sectionLocation--btnSearchPlace{
+    padding: 8px;
+    background-color: var(--colorBtnGPS);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px #0000002b;
+}
+
+.sectionLocation--btnGPS{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--colorBtnGPS);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px #0000002b;
+
+
+}
+
+.asideInfoWeather--mainInfoWeather{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+.mainInfoWeather--containerBackground{
+    width: 100%;
+    height: 376px;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.mainInfoWeather--imgBackgroundWeather{
+    opacity: .1;
+}
+
+.mainInfoWeather--imgWeather{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    transform: scale(.85);
+   
+    
+}
+
+.mainInfoWeather--spanDegrees{
+    color: #fff;
+}
+
+.mainInfoWeather--spanDegrees strong{
+    font-size: 114px;
+}
+.mainInfoWeather--spanDegrees sub{
+    font-size: 48px;
+}
+
+.mainInfoWeather--h1TextWeahter{
+    font-size: 36px;
+}
+
+.asideInfoWeather--footerInfo{
+    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.footerInfo--pInfoDay{
+    font-size: 18px;
+    color: var(--colorBtnGPS);
+}
+.footerInfo--pInfoLocation{
+    font-size: 18px;
+    color: var(--colorBtnGPS);
+    margin-top: 25px;
+}
+
+
+.body--mainContainerInfoWeather{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 120px;
+    
+ 
+}
+
+.mainContainerInfoWeather--divContainerBtns{
+    width: 100%;
+    height: 120px;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btnDegrees{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #585676;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px #0000002b;
+    color: #fff;
+    margin: 0px 5px;
+}
+
+
+.mainContainerInfoWeather--section5DaysNext{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 20px 0px 60px 0px;
+}
+
+.section5daysNext--divCardWeather{
+    width: 120px;
+    height: 175px;
+    background-color: var(--backgroundPrimary);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+
+}
+
+.divCardWeather--h3Day{
+    color: #fff;
+}
+
+.divCardWeather--imgWeather{
+    width: 65px;
+    
+    
+   
+}
+.divCardWeather--divContainerDegrees{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainerInfoWeather--sectionHightlights{
+    width: auto;
+   
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+.cardHig{
+    background-color: var(--backgroundPrimary);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}

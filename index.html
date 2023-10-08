@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styleDesktop.css">
+    <script src="./src/js/app.js" defer ></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <aside class="body--asideInfoWeather">
+            <section class="asideInfoWeather--sectionLocation">
+                <button class="sectionLocation--btnSearchPlace">Search for places</button>
+                <button class="sectionLocation--btnGPS"></button>
+            </section>
+
+            <!-- CAMBIAR CLASES Y MEJORAR -->
+            <main class="asideInfoWeather--mainInfoWeather">
+                <div   class="mainInfoWeather--containerBackground">
+                    <img src="/src/img/Cloud-background.png" alt="shower image" class="mainInfoWeather--imgBackgroundWeather">
+
+                    <img src="/src/img/Shower.png" alt="shower image" class="mainInfoWeather--imgWeather">
+
+
+                </div>
+                <span class="mainInfoWeather--spanDegrees"><strong>15</strong><sub>ºC</sub></span>
+                <h1 class="mainInfoWeather--h1TextWeahter">Shower</h1>
+            </main>
+
+            <footer class="asideInfoWeather--footerInfo">
+                <p class="footerInfo--pInfoDay">Today • Fri,5 Jun</p>
+                <p class="footerInfo--pInfoLocation">Helsinki</p>
+            </footer>
+    </aside>
+    <main class="body--mainContainerInfoWeather">
+        <div class="mainContainerInfoWeather--divContainerBtns">
+            <button class="divContainerBtns--btnDegreesCelsius btnDegrees">C</button>
+            <button class="divContainerBtns--btnDegreesFarenheit btnDegrees ">F</button>
+        </div>
+
+        <section class="mainContainerInfoWeather--section5DaysNext">
+            <div class="section5daysNext--divCardWeather">
+                    <h3 class="divCardWeather--h3Day">Tomorrow</h3>
+                    <img src="/src/img/Clear.png" alt="shower image" class="divCardWeather--imgWeather">
+                    <div class="divCardWeather--divContainerDegrees">
+                        <p class="divContainerDegrees--pMaxDegrees">16ºC</p>
+                        <p class="divContainerDegrees--pMinDegrees">11ºC</p>
+                    </div>
+            </div>
+            <div class="section5daysNext--divCardWeather">
+                <h3 class="divCardWeather--h3Day">Tomorrow</h3>
+                <img src="/src/img/Clear.png" alt="shower image" class="divCardWeather--imgWeather">
+                <div class="divCardWeather--divContainerDegrees">
+                    <p class="divContainerDegrees--pMaxDegrees">16ºC</p>
+                    <p class="divContainerDegrees--pMinDegrees">11ºC</p>
+                </div>
+        </div>
+        <div class="section5daysNext--divCardWeather">
+            <h3 class="divCardWeather--h3Day">Tomorrow</h3>
+            <img src="/src/img/Clear.png" alt="shower image" class="divCardWeather--imgWeather">
+            <div class="divCardWeather--divContainerDegrees">
+                <p class="divContainerDegrees--pMaxDegrees">16ºC</p>
+                <p class="divContainerDegrees--pMinDegrees">11ºC</p>
+            </div>
+    </div>
+    <div class="section5daysNext--divCardWeather">
+        <h3 class="divCardWeather--h3Day">Tomorrow</h3>
+        <img src="/src/img/Clear.png" alt="shower image" class="divCardWeather--imgWeather">
+        <div class="divCardWeather--divContainerDegrees">
+            <p class="divContainerDegrees--pMaxDegrees">16ºC</p>
+            <p class="divContainerDegrees--pMinDegrees">11ºC</p>
+        </div>
+</div>
+<div class="section5daysNext--divCardWeather">
+    <h3 class="divCardWeather--h3Day">Tomorrow</h3>
+    <img src="/src/img/Hail.png" alt="shower image" class="divCardWeather--imgWeather">
+    <div class="divCardWeather--divContainerDegrees">
+        <p class="divContainerDegrees--pMaxDegrees">16ºC</p>
+        <p class="divContainerDegrees--pMinDegrees">11ºC</p>
+    </div>
+</div>
+        </section>
+
+        <section class="mainContainerInfoWeather--sectionHightlights">
+                    <div class="sectionHightlights--divContainerWind cardHig">
+                            <h2 class="divContainerWind--h2Title">Wind Status</h2>
+                            <p class="divContainerWind--pWind"><span>7</span>mph</p>
+                            <p class="divContainerWind--pDirectionWind">wsw</p>
+                    </div>
+
+                    <div class="sectionHightlights--divContainerHumidity cardHig">
+                        <h2 class="divContainerHumidity--h2Title">Humidity</h2>
+                        <p class="divContainerHumidity--pHumidity"><span>84</span>%</p>
+                        <input type="range"  class="divContainerHumidity--inpHumidity">
+                    </div>
+
+                    <div class="sectionHightlights--divContainerVisibility cardHig">
+                        <h2 class="divContainerVisibility--h2Title">Visibility</h2>
+                        <p class="divContainerVisibility--pVisibility"><span>6,4</span>miles</p>
+                        
+                    </div>
+                    <div class="sectionHightlights--divContainerAir cardHig">
+                        <h2 class="divContainerAir--h2Title">Air Pressure</h2>
+                        <p class="divContainerAir--pAir"><span>998</span>mb</p>
+                        
+                    </div>
+
+        </section>
+
+
+    </main>
+</body>
+</html>
